@@ -1,0 +1,170 @@
+#logo {
+  float: right;
+  width: 150px;
+  height: 94px;
+}
+#clothes {
+  float: right;
+  width: 150px;
+  height: 94px;
+}
+#my {
+  float: right;
+  width: 150px;
+  height: 94px;
+}
+body {
+  background-size: 100%;
+  background-image: url("https://www.treasure-f.com/images/blog/572/201807272113074.jpg");
+}
+ul {
+  position: relative;
+  list-style-type: none;
+  margin: 25px;
+  padding: 14px 16px;
+  overflow: hidden;
+  background-color: #333;
+  font-size: 17px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(104, 209, 204);
+  text-align: center;
+  padding: 37px 37px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: rgb(96, 115, 151);
+}
+ul {
+  position: fixed;
+  width: 94%;
+  top: 0;
+  left: 0;
+  background-color: #1b0436;
+  color: white;
+  font-family: "Exo 2", sans-serif;
+  padding: 0em;
+}
+.tt {
+  left: 0;
+  line-height: 200px;
+  margin-top: -100px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+  font-size: 250%;
+  background-color: black;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#ts {
+  background-image: url(https://store.stumptownjapan.com/img/goods/1/54347100011.jpg);
+}
+
+#pt {
+  background-image: url(https://previews.123rf.com/images/caifas/caifas1803/caifas180300012/97534032-close-up-of-jeans-pants-on-wooden-background.jpg);
+}
+#sh {
+  background-image: url(https://img.freepik.com/free-photo/decorative-background-with-colored-shoes_23-2147630316.jpg?size=626&ext=jpg);
+}
+#st {
+  background-image: url(https://cf.shopee.ph/file/f729f5c54b57af24ae41d47ec41c3631);
+}
+#about {
+  background-image: url(https://wallpaperaccess.com/full/3124512.jpg);
+}
+.contact {
+  left: 0;
+  line-height: 150px;
+  margin-top: -100px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+  font-size: 140%;
+  background-color: black;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.cont {
+  left: 0;
+  line-height: 150px;
+  margin-top: -100px;
+  position: absolute;
+  text-align: center;
+  top: 80%;
+  width: 100%;
+  font-size: 140%;
+  background-color: black;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#lg {
+  width: 150px;
+  height: 100px;
+}
+.t-s {
+  color: rgb(48, 7, 87);
+  text-align: center;
+  font-size: 340%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  width: 100%;
+  margin-top: -5%;
+}
+.p-s {
+  color: rgb(48, 7, 87);
+  text-align: center;
+  font-size: 340%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  width: 100%;
+  margin-top: -5%;
+}
+.s-s {
+  color: rgb(48, 7, 87);
+  text-align: center;
+  font-size: 340%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  width: 100%;
+  margin-top: -5%;
+}
+.sh-s {
+  color: rgb(48, 7, 87);
+  text-align: center;
+  font-size: 340%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  width: 100%;
+  margin-top: -5%;
+}
+.us {
+  color: rgb(48, 7, 87);
+  text-align: center;
+  font-size: 340%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  width: 100%;
+  margin-top: -5%;
+}
+.t {
+  color: rgb(70, 39, 95);
+  font-size: 180%;
+}
+.aaa {
+  background-color: rgb(156, 60, 60);
+  width: 110px;
+  height: 50px;
+  border-radius: 10%;
+}
+.in {
+  height: 70px;
+  border-radius: 45px;
+}
+.im {
+  width: 120px;
+  height: 120px;
+}
