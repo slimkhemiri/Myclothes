@@ -8,7 +8,7 @@ var myClothes=function (){
 	clothes.pants={
 		bootcut:0,
 		bush:0,
-		straight:0
+		straight:40
 	}
 	clothes.shoes={
 		chuka:0,
@@ -122,10 +122,23 @@ var addShortsRunning= function(number){
 var removeShortsRunning= function(number){
 	 this.shorts.running=this.shorts.running-number
 }
-var removeShortsRunning= function(number){
-	 this.shorts.running=this.shorts.running-number
+var removeShortsLeather= function(number){
+	this.shorts.leather=this.shorts.leather-number
 }
-var removeShortsRunning= function(number){
-	 this.shorts.running=this.shorts.running-number
+var removeShortsPleated= function(number){
+	this.shorts.pleated=this.shorts.pleated-number
 }
 
+$('#add-straight').click(function(){
+	clothes.addPantsStraight( parseInt($('#input').val()))
+	alert('You have ' + clothes.pants.straight + '  Straight Pants in stock')
+	})
+	$('#remove-straight').click(function(){
+		clothes.removePantsStraight( parseInt($('#input').val()))
+		alert('You have ' + clothes.pants.straight + ' Straight Pants in stock')
+		})
+		var clothes = myClothes()
+
+		$('#check').click(function(){
+			alert('Your stock of straight pants is '+clothes.pants.straight)
+		})

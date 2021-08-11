@@ -151,7 +151,11 @@ ul {
   margin-top: -5%;
 }
 .t {
-  color: rgb(70, 39, 95);
+  color: white;
+  font-size: 180%;
+}
+.t1 {
+  color: rgb(25, 11, 100);
   font-size: 180%;
 }
 .aaa {
